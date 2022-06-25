@@ -16,13 +16,13 @@ end)
 -- Example Commands - Delete them
 
 RegisterCommand('success', function()
-	exports['okokNotify']:Alert("SUCCESS", "You have sent <span style='color:#47cf73'>420€</span> to Tommy!", 5000, 'success')
+	exports['fzy-notify']:Alert("SUCCESS", "You have sent <span style='color:#47cf73'>420€</span> to Tommy!", 5000, 'success')
 end)
 
 RegisterCommand('info', function()
-	exports['okokNotify']:Alert("INFO", "The Casino has opened!", 5000, 'info')
+	exports['fzy-notify']:Alert("INFO", "The Casino has opened!", 5000, 'info')
 end)
 
 RegisterCommand('warning', function()
-	exports['okokNotify']:Alert("WARNING", "You are getting nervous!", 5000, 'warning')
+	exports['fzy-notify']:Alert("WARNING", "You are getting nervous!", 5000, 'warning')
 end)
